@@ -1,0 +1,11 @@
+/* Source records behave like research search results: titles are the clear navigation target. */
+.source-card h3 .source-title-link,.pub-card h3 .source-title-link,.related-sources h3 .source-title-link{display:inline;color:#102d4a!important;text-decoration:none!important;transition:color 150ms ease,transform 150ms ease}
+/* Explicit card-context rules restore the pre-link title scale on every list. */
+.catalogue .source-card h3,.district-sources .source-card h3{font-size:clamp(2rem,3.6vw,3rem)!important;line-height:1.08!important}
+.timeline-canvas .pub-card.source-card h3{font-size:clamp(1.85rem,3vw,2.45rem)!important;line-height:1.12!important}
+.source-card h3 .source-title-link:hover,.source-card h3 .source-title-link:focus-visible,.pub-card h3 .source-title-link:hover,.pub-card h3 .source-title-link:focus-visible,.related-sources h3 .source-title-link:hover,.related-sources h3 .source-title-link:focus-visible{color:#1687a7!important;text-decoration:underline!important;outline:0}
+.source-card h3,.pub-card h3,.related-sources h3{transition:transform 150ms ease}
+.source-card h3:has(.source-title-link:hover),.source-card h3:has(.source-title-link:focus-visible),.pub-card h3:has(.source-title-link:hover),.pub-card h3:has(.source-title-link:focus-visible),.related-sources h3:has(.source-title-link:hover),.related-sources h3:has(.source-title-link:focus-visible){transform:scale(1.018);transform-origin:left center}
+.related-sources{margin-top:42px;padding-top:28px;border-top:1px solid rgba(16,45,74,.16)}
+.related-sources>h2{font-size:clamp(1.5rem,2.8vw,2.1rem)!important;margin-bottom:18px}.related-source-list{display:grid;gap:12px}.related-source-list article{padding:16px 18px;border-left:3px solid #1687a7;background:#eaf4f0;border-radius:0 10px 10px 0}.related-source-list h3{font-size:1.02rem!important;margin:3px 0 7px}.related-meta,.related-themes,.related-empty{font-size:.8rem!important;color:#57717a!important;margin:0!important}.related-themes{color:#3b6970!important}.related-sources .eyebrow{margin-bottom:6px}
+@media(prefers-reduced-motion:reduce){.source-card h3,.pub-card h3,.related-sources h3,.source-title-link{transition:none!important}}

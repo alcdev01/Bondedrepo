@@ -1,0 +1,7 @@
+/* District hover interaction: coverage is explorable even where figures are unavailable. */
+.geo-page .geo-stage .district.covered{cursor:default;transform-box:fill-box;transform-origin:center;transition:transform 150ms ease,filter 150ms ease,stroke-width 150ms ease;will-change:transform,filter}
+.geo-page .geo-stage .district.covered:hover{filter:brightness(.88) saturate(1.08);transform:scale(1.025)}
+.geo-page .geo-stage .district.overlap{stroke-width:6px!important;paint-order:stroke fill!important;stroke-linejoin:round!important}
+.geo-page .district-hover-label{position:absolute;z-index:12;display:none;pointer-events:none;max-width:150px;padding:7px 10px;border:1px solid rgba(158,231,225,.52);border-radius:8px;background:rgba(8,26,43,.94);box-shadow:0 8px 20px rgba(3,20,34,.32);color:#f8fbf8;font:700 .75rem/1.1 Arial,sans-serif;letter-spacing:.025em}
+.geo-page .district-hover-label.is-visible{display:block}
+@media(prefers-reduced-motion:reduce){.geo-page .geo-stage .district.covered{transition:none!important}}

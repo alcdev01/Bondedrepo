@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Timeline | UNBonded</title>
+    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/site-repair.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell nav">
+        <a class="brand" href="index.html"><b>UN</b>Bonded Evidence Hub</a
+        ><button class="nav-toggle" aria-label="Open navigation">
+          &#9776;
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a
+          ><a href="catalogue.html">Source catalogue</a
+          ><a class="active" href="timeline.html">Timeline</a
+          ><a href="geography.html">Geography</a
+          ><a href="methodology.html">How to use</a
+          ><a href="contacts.html">Contacts</a>
+        </nav>
+      </div>
+    </header>
+    <main class="timeline-page">
+      <section class="timeline-stage">
+        <div class="shell">
+          <p class="eyebrow">Evidence in time</p>
+          <h1>History & publication timeline</h1>
+          <p>
+            Follow the legal and historical record, or move to the publication
+            timeline for source-level research detail.
+          </p>
+          <div class="timeline-tabs">
+            <button class="tab active" data-tab="history">
+              Policy & historical events</button
+            ><button class="tab" data-tab="publications">
+              Publication record
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="timeline-canvas">
+        <div class="shell">
+          <div class="timeline-toolbar" id="publication-controls" hidden>
+            <label
+              >System<select id="pub-system">
+                <option value="">All systems</option>
+                <option>Kamaiya</option>
+                <option>Haliya</option>
+                <option>Haruwa-Charuwa</option>
+              </select></label
+            ><label
+              >Five-year period<select id="pub-period">
+                <option value="">All years</option>
+                <option value="2000">2000–04</option>
+                <option value="2005">2005–09</option>
+                <option value="2010">2010–14</option>
+                <option value="2015">2015–19</option>
+                <option value="2020">2020–24</option>
+              </select></label
+            >
+          </div>
+          <div class="timeline" id="history-timeline"></div>
+          <div class="pub-list" id="publication-timeline" hidden></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-grid"><b>UNBonded Evidence Hub</b></div>
+    </footer>
+    <script src="data/sources.js"></script>
+    <script src="data/contacts.js"></script>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
