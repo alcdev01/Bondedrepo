@@ -1,4 +1,4 @@
-window.UNBONDED_DATA = {
+export const data = {
   "sources": [
     {
       "id": "SRC-001",

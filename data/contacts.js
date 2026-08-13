@@ -1,4 +1,4 @@
-window.UNBONDED_CONTACTS = [
+export const contacts = [
   { name: 'International Labour Organization (ILO)', aliases: ['ILO', 'International Labour Organization', 'International Labour Organization (ILO)', 'International Labour Organization, IPEC'], focus: 'Labour rights, forced labour, child labour and evidence on bonded labour in Nepal.', website: 'https://www.ilo.org/', contactUrl: 'https://www.ilo.org/contact-us', email: 'ilo@ilo.org', phone: '+41 (0) 22 799 6111' },
   { name: 'The Freedom Fund', aliases: ['The Freedom Fund', 'Freedom Fund'], focus: 'Community-led work on agricultural bonded labour, including Haruwa-Charuwa, Kamaiya and Haliya in Nepal.', website: 'https://www.freedomfund.org/', contactUrl: 'https://www.freedomfund.org/contact/', email: 'info@freedomfund.org', phone: '+44 (0) 203 777 2200' },
   { name: 'Anti-Slavery International', aliases: ['Anti-Slavery International'], focus: 'Research, advocacy and campaigning to end slavery and forced labour.', website: 'https://www.antislavery.org/', contactUrl: 'https://www.antislavery.org/about-us/', email: 'info@antislavery.org', phone: '+44 (0) 20 7737 9434' },

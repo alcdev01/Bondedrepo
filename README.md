@@ -1,18 +1,28 @@
 # UNBonded Evidence Hub
 
-This is a static research repository website. It requires no build step, server-side code, database, or environment variables.
+The UNBonded Evidence Hub is a single-page React 19 + Vite 8 application. React Router provides the clean client-side routes: `/catalogue`, `/timeline`, `/geography`, `/how-to-use`, `/source?id=…`, and `/contacts`.
 
-## Publish
+## Run locally
 
-Deploy the complete project folder to any static host. Keep the `assets/` and `data/` folders beside the HTML files, preserving the current folder structure.
+```bash
+npm install
+npm run dev
+```
 
-`index.html` is the entry page. The other HTML files are direct routes and should be served without rewriting their paths.
+## Production build
 
-## Runtime structure
+```bash
+npm run build
+```
 
-- `assets/site.css` — the single visual design layer
-- `assets/site.js` — the single interaction and rendering layer
-- `data/sources.js` — source records, claims, themes, and timeline data
+The built static site is written to `dist/`. Configure the production host with an SPA fallback to `index.html` so direct visits to routes remain available.
+
+## Application structure
+
+- `src/main.jsx` — React views and interactive UI
+- `data/sources.js` — source records, claims, themes and timelines
 - `data/nepal-districts.js` — district map geometry
+- `data/contacts.js` — verified organisation-contact records
+- `assets/site.css` and `assets/site-repair.css` — established visual system
 
-Legacy iteration files are not used by any page and can be retained locally as historical reference during review.
+Only React, React DOM, Vite and Lenis are installed. There is no backend, database or environment configuration.
