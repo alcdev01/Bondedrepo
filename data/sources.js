@@ -46,7 +46,7 @@ export const data = {
       "rebondage": "",
       "gap": "Rehabilitation implementation gaps",
       "citation": "Kumar KC, B., Subedi, G., & Suwal, B. R. (2013). Forced labour of adults and children in the agriculture sector of Nepal: Focusing on Haruwa-Charuwa in eastern Tarai and Haliya in far-western hills. International Labour Organization.",
-      "url": "",
+      "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40asia/%40ro-bangkok/%40ilo-kathmandu/documents/publication/wcms_217086.pdf",
       "systems": [
         "Haliya",
         "Haruwa-Charuwa",
@@ -111,7 +111,7 @@ export const data = {
       "rebondage": "",
       "gap": "Limited to one district, reducing national generalizability.",
       "citation": "Dhakal, S., Karki, K., & Shrestha, S. (2020). Harawa-Charawa, the bonded laborers in agriculture: A study of three municipalities of Dhanusha District in Eastern Terai. Community Self-Reliance Centre (CSRC). ISBN 978-9937-8420-2-0.",
-      "url": "",
+      "url": "https://csrcnepal.org/wp-content/uploads/2021/03/Harawa-Charawa-the-Bonded-Laborers-in-Agriculture.pdf",
       "systems": [
         "Cross-system / general"
       ],
@@ -130,7 +130,7 @@ export const data = {
     {
       "id": "SRC-005",
       "contributor": "Melish ",
-      "author": "Sustainable Development Policy Institute (SDPI)",
+      "author": "Mahendra Sapkota",
       "title": "Kamlahari Movement in Nepal: Expanding Opportunities, Uncertain Achievements",
       "year": 2018,
       "population": "Kamlahari girls; Tharu community; Former Kamlahari",
@@ -143,7 +143,7 @@ export const data = {
       "rebondage": "",
       "gap": "Lacks empirical evidence on long-term rehabilitation outcomes of freed Kamlahari.",
       "citation": "Sapkota, M. (2018). Kamlahari movement in Nepal: Expanding opportunities, uncertain achievements. Journal of Development Policy, Research & Practice, 2(1), 25–47. ISSN 2522-3410.",
-      "url": "",
+      "url": "https://sdpi.org/sdpiweb/publications/files/SDPI_JOURNAL%28jan-dec%202018%29.pdf",
       "systems": [
         "Kamlari"
       ],
@@ -405,9 +405,9 @@ export const data = {
     {
       "id": "SRC-014",
       "contributor": "Melish ",
-      "author": "Unspecified author",
+      "author": "Birendra Raj Giri",
       "title": "Bonded Labour Practice in Nepal: The Promise of Education as a Magnet of Child Bondedness",
-      "year": null,
+      "year": 2010,
       "population": "",
       "geography": "Not specified",
       "sampleSize": "Not reported",
@@ -417,8 +417,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Giri, B. R. (2010). Bonded labour practice in Nepal: The promise of education as a magnet of child bondedness. South Asia Research, 30(2), 145–164. https://doi.org/10.1177/026272801003000203",
+      "url": "https://journals.sagepub.com/doi/10.1177/026272801003000203",
       "systems": [
         "Cross-system / general"
       ],
@@ -435,9 +435,9 @@ export const data = {
     {
       "id": "SRC-015",
       "contributor": "Melish ",
-      "author": "Unspecified author",
+      "author": "Birendra Giri",
       "title": "The Bonded Labour System in Nepal: Perspectives of Haliya and Kamaiya Child Workers",
-      "year": null,
+      "year": 2009,
       "population": "",
       "geography": "Not specified",
       "sampleSize": "Not reported",
@@ -447,8 +447,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Giri, B. (2009). The bonded labour system in Nepal: Perspectives of Haliya and Kamaiya child workers. Journal of Asian and African Studies, 44(6), 599–623. https://doi.org/10.1177/0021909609343414",
+      "url": "https://journals.sagepub.com/doi/10.1177/0021909609343414",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -466,9 +466,9 @@ export const data = {
     {
       "id": "SRC-016",
       "contributor": "Melish ",
-      "author": "Unspecified author",
-      "title": "Fourteen Haliya and Kamaiya Bonded Child Labourers in Nepal",
-      "year": null,
+      "author": "Birendra Raj Giri",
+      "title": "Haliya and Kamaiya Bonded Child Labourers in Nepal",
+      "year": 2010,
       "population": "",
       "geography": "Not specified",
       "sampleSize": "Not reported",
@@ -478,8 +478,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Giri, B. R. (2010). Haliya and Kamaiya bonded child labourers in Nepal. In G. Craig (Ed.), Child slavery now: A contemporary reader (Chapter 14, pp. 227–242).",
+      "url": "https://academic.oup.com/policy-press-scholarship-online/book/21116/chapter/180718418",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -497,9 +497,9 @@ export const data = {
     {
       "id": "SRC-017",
       "contributor": "Melish ",
-      "author": "Unspecified author",
-      "title": "Child slavery now: A contemporary reader",
-      "year": null,
+      "author": "Gary Craig (ed.)",
+      "title": "Child Slavery Now: A Contemporary Reader",
+      "year": 2010,
       "population": "",
       "geography": "Not specified",
       "sampleSize": "Not reported",
@@ -509,8 +509,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Craig, G. (Ed.). (2010). Child slavery now: A contemporary reader.",
+      "url": "https://academic.oup.com/policy-press-scholarship-online/book/21116",
       "systems": [
         "Cross-system / general"
       ],
@@ -525,9 +525,9 @@ export const data = {
     {
       "id": "SRC-018",
       "contributor": "Melish ",
-      "author": "Unspecified author",
+      "author": "Bhakta Bahadur Basnet",
       "title": "Bonded Servitude to Freedom: Education as an Apparatus for the Empowerment of Bonded Slave Kamlari Girls of Nepal",
-      "year": null,
+      "year": 2018,
       "population": "",
       "geography": "Not specified",
       "sampleSize": "Not reported",
@@ -537,8 +537,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Basnet, B. B. (2018). Bonded servitude to freedom: Education as an apparatus for the empowerment of bonded slave Kamlari girls of Nepal [Conference paper].",
+      "url": "https://www.researchgate.net/publication/327365116_Bonded_Servitude_to_Freedom_Education_as_an_Apparatus_for_the_Empowerment_of_Bonded_Slave_Kamlari_Girls_of_Nepal",
       "systems": [
         "Kamlari"
       ],
@@ -554,9 +554,9 @@ export const data = {
     {
       "id": "SRC-019",
       "contributor": "Nirjhara; Nirjhara; Nirjhara",
-      "author": "BASE",
-      "title": "Freedom Movement - Backward Society Education",
-      "year": 2000,
+      "author": "Backward Society Education (BASE)",
+      "title": "Kamaiya Freedom Movement",
+      "year": null,
       "population": "Kamaiya / Kamlari",
       "geography": "Western Terai region",
       "sampleSize": "-",
@@ -566,8 +566,8 @@ export const data = {
       "topicSentence": "Community Organizing & Rights Awareness: cited in multiple reports.",
       "rebondage": "return to former landlord/ slavery",
       "gap": "Doesn't show actual numbers for how many people took the night classes or learned to read.",
-      "citation": "",
-      "url": "",
+      "citation": "Backward Society Education (BASE). (n.d.). Kamaiya freedom movement [Historical record/page].",
+      "url": "https://nepalbase.org/freedom-movement/",
       "systems": [
         "Kamaiya",
         "Kamlari",
@@ -590,8 +590,8 @@ export const data = {
     {
       "id": "SRC-020",
       "contributor": "Kritika",
-      "author": "IDSN 2009",
-      "title": "Compliance with ILO Convention No.29 on Forced Labour (ratified in 2002)",
+      "author": "Anti-Slavery International",
+      "title": "Forced and Bonded Labour in Nepal: Information on Nepal—Compliance with ILO Convention No. 29 on Forced Labour",
       "year": 2009,
       "population": "Haliya",
       "geography": "Western hills of Nepal",
@@ -602,8 +602,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "advance-payment labor in construction/ agriculture",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "Anti-Slavery International. (July 2009). Forced and bonded labour in Nepal: Information on Nepal—Compliance with ILO Convention No. 29 on Forced Labour.",
+      "url": "https://idsn.org/wp-content/uploads/user_folder/pdf/New_files/Nepal/Forced_and_bonded_labour_in_Nepal__-__ASI_July_2009.pdf",
       "systems": [
         "Haliya"
       ],
@@ -622,8 +622,8 @@ export const data = {
     {
       "id": "SRC-021",
       "contributor": "Kritika",
-      "author": "A Good Practice On Haliya Rights Movement in Nepal",
-      "title": "A Good Practice On Haliya Rights Movement in Nepal",
+      "author": "Ganesh B.K., Chairperson, RDN Nepal",
+      "title": "A Good Practice on Haliya Rights Movement in Nepal",
       "year": null,
       "population": "Kamaiya and haliya bonded labourers",
       "geography": "Not specified",
@@ -634,8 +634,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "B.K., G. (n.d.). A good practice on Haliya rights movement in Nepal. RDN Nepal.",
+      "url": "https://idsn.org/wp-content/uploads/user_folder/pdf/New_files/IDSN/Consultations/Cases/Haliya_issues_in_Nepal-RDN_Nepal.pdf",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -656,7 +656,7 @@ export const data = {
     {
       "id": "SRC-022",
       "contributor": "Kritika",
-      "author": "ILO Breaking bonded labour and gender roles in Nepal",
+      "author": "International Labour Organization",
       "title": "Breaking bonded labour and gender roles in Nepal",
       "year": 2018,
       "population": "Freed Kamaiya bonded labourers particularly women , in far-western Nepal",
@@ -668,8 +668,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "",
       "gap": "",
-      "citation": "",
-      "url": "",
+      "citation": "International Labour Organization. (2018, March 20). Breaking bonded labour and gender roles in Nepal.",
+      "url": "https://www.ilo.org/resource/article/breaking-bonded-labour-and-gender-roles-nepal",
       "systems": [
         "Kamaiya"
       ],
@@ -699,8 +699,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Debt bondage, Lack of \"meaningful rehabilitation\" with land and life skills keeps many in poverty.",
       "gap": "Highlights that while slavery systems (Kamaiya/Kamlahari) are abolished, the government has yet to fulfill their basic necessities and meaningful rehabilitation.",
-      "citation": "",
-      "url": "",
+      "citation": "Backward Society Education (BASE). (2016). Annual report 2016.",
+      "url": "https://nepalbase.org/wp-content/uploads/2015/04/Annual-Report-2016.pdf",
       "systems": [
         "Kamaiya",
         "Kamlari"
@@ -719,7 +719,7 @@ export const data = {
     {
       "id": "SRC-024",
       "contributor": "Shusant",
-      "author": "ILO",
+      "author": "Central Bureau of Statistics (CBS), Nepal, and International Labour Organization",
       "title": "Nepal Child Labour Report 2021",
       "year": 2021,
       "population": "Haliya, Kamaiya and Kamlaris",
@@ -731,8 +731,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Poverty (low wealth index), lack of parental education, and household heads working in the informal sector. Engagement in subsistence agriculture is a primary driver.",
       "gap": "The report does not capture certain at-risk categories such as street children, children in prostitution, or those in bonded labour not residing in a typical household.",
-      "citation": "",
-      "url": "",
+      "citation": "Central Bureau of Statistics (CBS), Nepal, & International Labour Organization. (2021, April 29). Nepal child labour report 2021.",
+      "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40asia/%40ro-bangkok/%40ilo-kathmandu/documents/publication/wcms_784225.pdf",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -751,34 +751,6 @@ export const data = {
       ]
     },
     {
-      "id": "SRC-025",
-      "contributor": "Shusant",
-      "author": "Felm (Finnish Evangelical Lutheran Mission)",
-      "title": "Hait kohdetta bonded labour",
-      "year": 2023,
-      "population": "General",
-      "geography": "Not specified",
-      "sampleSize": "N/A",
-      "methodology": "N/A",
-      "methodType": "Unspecified",
-      "claim": "No claim recorded",
-      "topicSentence": "",
-      "rebondage": "",
-      "gap": "",
-      "citation": "",
-      "url": "",
-      "systems": [
-        "Cross-system / general"
-      ],
-      "themes": [
-        "Forced labour & debt"
-      ],
-      "status": "Partial metadata",
-      "claims": [
-        "No claim recorded"
-      ]
-    },
-    {
       "id": "SRC-026",
       "contributor": "Shusant",
       "author": "Backward Society Education (BASE)",
@@ -793,8 +765,8 @@ export const data = {
       "topicSentence": "Periodic observations (1995, 2000, 2002)",
       "rebondage": "Not explicitly detailed",
       "gap": "Note the \"visible increase\" in families following emancipation, suggesting identification improved or new families fell into the system",
-      "citation": "",
-      "url": "",
+      "citation": "Backward Society Education (BASE). (n.d.). Rehabilitation status.",
+      "url": "https://nepalbase.org/rehabilitation-status/",
       "systems": [
         "Kamaiya"
       ],
@@ -822,8 +794,8 @@ export const data = {
       "topicSentence": "Annual publication",
       "rebondage": "Economic compulsion (poverty), lack of skills, and lack of own land; unavailability of legal identity (Haliya ID cards) prevents access to government entitlements.",
       "gap": "Government records of Haliyas are often inaccurate because collectors haphazardly gather names without visiting houses, and Haliyas sometimes hide their identities for fear of former landlords.",
-      "citation": "",
-      "url": "",
+      "citation": "Felm Nepal. (2023, March 27). Situation of economic, social and cultural rights of freed Haliyas in Sudurpaschim Province of Nepal (ESCR Yearbook 2022).",
+      "url": "https://felmnepal.org/wp-content/uploads/2023/03/ESCR-Yearbook-2022.pdf",
       "systems": [
         "Haliya"
       ],
@@ -843,7 +815,7 @@ export const data = {
       "contributor": "Shusant",
       "author": "LWF Nepal, Felm, FCA, LCWS, CAHURAST, RMHSF, SUS",
       "title": "Joint Submission to the Human Rights Council for the 37th Session of the Universal Periodic Review (UPR) Nepal",
-      "year": 2021,
+      "year": 2020,
       "population": "Marginalized groups including Kamaiyas, Haliyas, Kamlaris, Dalits, Santhals, and PwDs",
       "geography": "Nepal",
       "sampleSize": "3,841 respondents (2,395 women, 1,445 men) and 120 duty bearers",
@@ -853,8 +825,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Lack of citizenship certificates (especially for Santhals) deprives them of basic state services; ongoing discrimination and \"patron-client\" relationships.",
       "gap": "Recommends a national survey to ensure all freed Haliyas are registered and have access to land and housing where they have resided for the last 10 years.",
-      "citation": "",
-      "url": "",
+      "citation": "Joint Submission No. 29. (2020). Joint submission to the Human Rights Council for the 37th session of the Universal Periodic Review: Nepal.",
+      "url": "https://upr-info.org/sites/default/files/documents/2021-08/js29_upr37_npl_e_main.pdf",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -885,7 +857,7 @@ export const data = {
       "rebondage": "Parental debt, annual or family labour contracts, and land-leasing/sharecropping conditions tied to child labour supply",
       "gap": "Sharma, S., Basnyat, B., & Ganesh, G. C. (2001). Bonded labour among child workers of the Kamaiya system: A rapid assessment. International Labour Organization, International Programme on the Elimination of Child Labour. https://un.info.np/Net/NeoDocs/View/3564",
       "citation": "",
-      "url": "",
+      "url": "https://un.info.np/Net/NeoDocs/View/3564",
       "systems": [
         "Kamaiya",
         "Child labour"
@@ -917,7 +889,7 @@ export const data = {
       "rebondage": "Incomplete rehabilitation and lack of alternative livelihoods; respondents warned they might return to masters if problems were not solved.",
       "gap": "World Organisation Against Torture. (2006). The Kamaiya system of bonded labour in Nepal. https://www.omct.org/files/interdisciplinary-study/ii_b_3_nepal_case_study.pdf",
       "citation": "",
-      "url": "",
+      "url": "https://www.omct.org/files/interdisciplinary-study/ii_b_3_nepal_case_study.pdf",
       "systems": [
         "Kamaiya"
       ],
@@ -935,8 +907,8 @@ export const data = {
     {
       "id": "SRC-031",
       "contributor": "Aaspad",
-      "author": "Giri, Birendra R.",
-      "title": "The bonded labor system in Nepal: Exploring Halia and Kamaiya children's life-worlds",
+      "author": "Birendra R. Giri",
+      "title": "The Bonded Labor System in Nepal: Exploring Halia and Kamaiya Children's Life-worlds",
       "year": 2010,
       "population": "Musahar and Tharu haliya/kamaiya children",
       "geography": "Bayibab village, Morang district, and Nayajib settlement, Bardiya district, Nepal",
@@ -947,8 +919,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "In-kind income, loans, adhiya land, and promises of education enabled child substitution after adult bonded labour became harder to hire.",
       "gap": "In-kind income, loans, adhiya land, and promises of education enabled child substitution after adult bonded labour became harder to hire.",
-      "citation": "",
-      "url": "",
+      "citation": "Giri, B. R. (2010). The bonded labor system in Nepal: Exploring Halia and Kamaiya children's life-worlds. HIMALAYA, 29(1), 29–41.",
+      "url": "https://digitalcommons.macalester.edu/himalaya/vol29/iss1/3/",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -968,9 +940,9 @@ export const data = {
     {
       "id": "SRC-032",
       "contributor": "Aaspad",
-      "author": "Giri, Birendra Raj",
-      "title": "Bonded labour in Nepal: Life and work of children in communities",
-      "year": 2009,
+      "author": "Birendra Raj Giri",
+      "title": "Bonded Labour in Nepal: Life and Work of Children in Communities",
+      "year": 2010,
       "population": "Haliya/kamaiya children aged 8-16 from Musahar and Tharu communities",
       "geography": "Bayibab and Nayajib settlements, Morang and Bardiya districts, Nepal",
       "sampleSize": "58 haliya/kamaiya children",
@@ -980,8 +952,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Family income needs and limited education or vocational alternatives kept children in haliya/kamaiya contracts.",
       "gap": "States that detailed research was almost non-existent, especially on haliya practices; recommends longer longitudinal and broader-location research.",
-      "citation": "",
-      "url": "",
+      "citation": "Giri, B. R. (2010). Bonded labour in Nepal: Life and work of children in communities [PhD thesis, The Open University].",
+      "url": "https://oro.open.ac.uk/62018/1/13837675.pdf",
       "systems": [
         "Kamaiya",
         "Haliya",
@@ -1014,7 +986,7 @@ export const data = {
       "rebondage": "",
       "gap": "Maycock, M. W. (2012). Masculinity, modernity and bonded labour: Continuity and change amongst the Kamaiya of Kailali district, far-west Nepal [Doctoral thesis, University of East Anglia]. UEA Digital Repository. https://ueaeprints.uea.ac.uk/id/eprint/43782/",
       "citation": "",
-      "url": "",
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/43782/",
       "systems": [
         "Kamaiya"
       ],
@@ -1030,8 +1002,8 @@ export const data = {
     {
       "id": "SRC-034",
       "contributor": "Aaspad",
-      "author": "Chaudhary, Krishna Kumari",
-      "title": "Socio-economic status of freed bonded labour (Mukta Kamaiya) in Nepal: A case study in Rajapur-4, Bardiya District",
+      "author": "Krishna Kumari Chaudhary",
+      "title": "Socio-Economic Status of Freed Bonded Labour (Mukta Kamaiya) in Nepal (A Case Study in Rajapur-4, Bardiya District)",
       "year": 2013,
       "population": "Mukta Kamaiya households",
       "geography": "Rajapur VDC ward 4, Bardiya district, Nepal",
@@ -1042,8 +1014,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Small land size and insufficient livelihood pushed households into wage labour, sharecropping, and continued Kamlahri risk.",
       "gap": "Single ward-level case study; the thesis states findings do not represent all Mukta Kamaiya communities.",
-      "citation": "",
-      "url": "",
+      "citation": "Chaudhary, K. K. (2013). Socio-economic status of freed bonded labour (Mukta Kamaiya) in Nepal: A case study in Rajapur-4, Bardiya District [MA thesis, Faculty of Rural Development, Tribhuvan University].",
+      "url": "https://elibrary.tucl.edu.np/items/4149d300-d569-4678-9f1e-a9c62c856bfc",
       "systems": [
         "Kamaiya",
         "Child labour"
@@ -1074,7 +1046,7 @@ export const data = {
       "rebondage": "",
       "gap": "Khatri, R. B., Mishra, S. R., Khanal, V., & Choulagai, B. (2015). Factors associated with underweight among children of former-Kamaiyas in Nepal. Frontiers in Public Health, 3, Article 11. https://doi.org/10.3389/fpubh.2015.00011",
       "citation": "",
-      "url": "",
+      "url": "https://doi.org/10.3389/fpubh.2015.00011",
       "systems": [
         "Kamaiya",
         "Child labour"
@@ -1091,9 +1063,9 @@ export const data = {
     {
       "id": "SRC-036",
       "contributor": "Aaspad",
-      "author": "International Labour Organization, UNICEF, & Central Bureau of Statistics",
+      "author": "Central Bureau of Statistics, International Labour Organization, and UNICEF",
       "title": "Report on employment relationship survey in the brick industry in Nepal",
-      "year": 2020,
+      "year": 2021,
       "population": "Brick-kiln manual workers, working family members, and children living in brick kilns",
       "geography": "Nepal, all seven provinces",
       "sampleSize": "301 brick kilns; 4,210 units/households sampled",
@@ -1103,8 +1075,8 @@ export const data = {
       "topicSentence": "",
       "rebondage": "Advance payments distributed through naikes/labour contractors; children may work to help repay parents' advance debt.",
       "gap": "States that no official statistics previously existed on forced labour, bonded labour, and child labour in the brick production sector.",
-      "citation": "",
-      "url": "",
+      "citation": "Central Bureau of Statistics, International Labour Organization, & UNICEF. (2021, January 29). Report on employment relationship survey in the brick industry in Nepal.",
+      "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40asia/%40ro-bangkok/%40ilo-kathmandu/documents/publication/wcms_767621.pdf",
       "systems": [
         "Child labour",
         "Brick industry"
@@ -1135,7 +1107,7 @@ export const data = {
       "rebondage": "Low income, food insecurity, loans, lack of registered land, and dependence on landowners forced families or children to work at landowners' places.",
       "gap": "International Labour Organization. (2025). Analysis of situation of the freed-Haliyas in Karnali Province of Nepal. https://www.ilo.org/publications/analysis-situation-freed-haliyas-karnali-province-nepal-0",
       "citation": "",
-      "url": "",
+      "url": "https://www.ilo.org/publications/analysis-situation-freed-haliyas-karnali-province-nepal-0",
       "systems": [
         "Haliya",
         "Child labour"
@@ -1167,7 +1139,7 @@ export const data = {
       "rebondage": "Bonded debt tied to cash, commodity, or kind debts owed by the labourer, family, ancestor, or guarantor, including Sauki or other debt.",
       "gap": "Government of Nepal. (2002). Bonded Labour (Prohibition) Act, 2058 (2002). https://daobanke.moha.gov.np/assets/23/bonded_labour_prohibition_act_2058_2002.pdf/file",
       "citation": "",
-      "url": "",
+      "url": "https://daobanke.moha.gov.np/assets/23/bonded_labour_prohibition_act_2058_2002.pdf/file",
       "systems": [
         "Cross-system / general"
       ],
@@ -1197,7 +1169,7 @@ export const data = {
       "rebondage": "",
       "gap": "International Labour Organization, International Programme on the Elimination of Child Labour. (2009). Sustainable elimination of child bonded labour in Nepal - Phase II: External project review. https://webapps.ilo.org/ievaldiscovery/files/file/183150",
       "citation": "",
-      "url": "",
+      "url": "https://webapps.ilo.org/ievaldiscovery/files/file/183150",
       "systems": [
         "Child labour"
       ],
@@ -1227,7 +1199,7 @@ export const data = {
       "rebondage": "",
       "gap": "Committee on the Rights of the Child. (2005). Concluding observations: Nepal (CRC/C/15/Add.261). Office of the United Nations High Commissioner for Human Rights. https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=n6SYWSKRT1G8NfG46B5IgWPIVRxsh9kdcwmChcXPiYMwrFUbi7akqGzNpp%2BBVTgMQ9ZG%2BAJTbsHvLsLCNWH3Zg%3D%3D",
       "citation": "",
-      "url": "",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=n6SYWSKRT1G8NfG46B5IgWPIVRxsh9kdcwmChcXPiYMwrFUbi7akqGzNpp%2BBVTgMQ9ZG%2BAJTbsHvLsLCNWH3Zg%3D%3D",
       "systems": [
         "Kamaiya",
         "Haliya",

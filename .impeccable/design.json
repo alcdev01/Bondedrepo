@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-13T00:00:00.000Z",
+  "title": "Design System: UNBonded Evidence Hub",
+  "extensions": {
+    "colorMeta": {
+      "night": { "role": "primary", "displayName": "Atlas Night", "canonical": "#081a2b", "tonalRamp": ["#081a2b", "#102d4a", "#1e4765", "#366982", "#5d8fa2", "#8eb8c2", "#bed8d9", "#edf6f3"] },
+      "aqua": { "role": "primary", "displayName": "Survey Aqua", "canonical": "#1687a7", "tonalRamp": ["#082f3e", "#0c5063", "#1687a7", "#36a9c1", "#65c4d4", "#99d9e1", "#c8eaed", "#edf9f9"] },
+      "coral": { "role": "secondary", "displayName": "Fieldwork Coral", "canonical": "#fa7859", "tonalRamp": ["#4a2118", "#7a3828", "#b74f34", "#fa7859", "#ff9a7f", "#ffbaa9", "#ffd9cf", "#fff1ed"] },
+      "sun": { "role": "secondary", "displayName": "Signal Sun", "canonical": "#ffca5b", "tonalRamp": ["#4c3700", "#7a5900", "#b18419", "#ffca5b", "#ffda85", "#ffe7ae", "#fff1cf", "#fff9eb"] },
+      "paper": { "role": "neutral", "displayName": "Archive Paper", "canonical": "#fffdf8", "tonalRamp": ["#4c4b48", "#76746f", "#aaa79f", "#d3d0c8", "#e7e4dd", "#f3f0e9", "#fffaf2", "#fffdf8"] },
+      "mint": { "role": "neutral", "displayName": "Mint Ground", "canonical": "#dcece7", "tonalRamp": ["#26413b", "#466a61", "#6f968b", "#9cc0b4", "#bfe0d5", "#dcece7", "#eaf4f0", "#f5fbf8"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Display", "purpose": "Hero statements and major route titles." },
+      "headline": { "displayName": "Research Headline", "purpose": "Section framing and source-card titles." },
+      "body": { "displayName": "Readable Body", "purpose": "Research summaries, findings, and explanatory copy." },
+      "label": { "displayName": "Catalogue Label", "purpose": "Metadata, filters, chips, and categorisation." }
+    },
+    "shadows": [
+      { "name": "record-lift", "value": "0 14px 35px #102d4a18", "purpose": "Ambient separation for evidence and feature cards." },
+      { "name": "media-lift", "value": "0 15px 30px #08233b1c", "purpose": "Lift for media cards, deepened on hover." }
+    ],
+    "motion": [
+      { "name": "source-link", "value": "color 0.15s, transform 0.15s", "purpose": "Linked evidence titles." },
+      { "name": "media-hover", "value": "transform 0.18s, box-shadow 0.18s", "purpose": "Documentary card hover feedback." }
+    ],
+    "breakpoints": [{ "name": "compact", "value": "800px" }]
+  },
+  "components": [
+    { "name": "Search Action", "kind": "button", "refersTo": "button-primary", "description": "A compact search action appended to the main evidence search field.", "html": "<button class=\"ds-search-button\">Search evidence</button>", "css": ".ds-search-button{border:0;background:#ffca5b;color:#081a2b;padding:0 20px;min-height:46px;border-radius:0 8px 8px 0;font:800 14px Manrope,Arial,sans-serif;cursor:pointer}.ds-search-button:hover{background:#fa7859}.ds-search-button:focus-visible{outline:3px solid #1687a7;outline-offset:2px}" },
+    { "name": "Research Field", "kind": "input", "refersTo": "field", "description": "The catalogue's plain-language search field.", "html": "<label class=\"ds-field-label\">Search evidence<input class=\"ds-search-input\" placeholder=\"Search a place, system, author, or theme\"></label>", "css": ".ds-field-label{display:grid;gap:6px;color:#57717a;font:800 11.5px/1.2 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase}.ds-search-input{width:100%;padding:11px;border:1px solid #bfd4d2;border-radius:4px;background:#fff;color:#102d4a;font:16px Manrope,Arial,sans-serif}.ds-search-input:focus-visible{outline:3px solid #1687a7;outline-offset:2px}" },
+    { "name": "Evidence Chip", "kind": "chip", "refersTo": "chip", "description": "A compact coded system or theme marker.", "html": "<span class=\"ds-chip\">Land &amp; livelihoods</span>", "css": ".ds-chip{display:inline-block;padding:7px 9px;border-radius:999px;background:#dcece7;color:#102d4a;font:800 11px/1.2 'DM Mono',monospace;letter-spacing:.06em;text-transform:uppercase}" },
+    { "name": "Source Record", "kind": "card", "refersTo": "card", "description": "A lifted source entry that foregrounds the original title and preserves context.", "html": "<article class=\"ds-source-card\"><p class=\"ds-author\">International Labour Organization</p><h3>Evidence record title</h3><p class=\"ds-meta\">2025 · Assessment / evaluation · Nepal</p><p>Recorded scope and finding remain visible before a reader opens the original source.</p></article>", "css": ".ds-source-card{padding:30px 34px;border-left:7px solid #1687a7;border-radius:18px;background:#fffdf8;box-shadow:0 14px 35px #102d4a18;color:#102d4a}.ds-source-card h3{margin:0 0 10px;font:400 26px/1.08 'Libre Baskerville',Georgia,serif}.ds-author{margin:0 0 9px;color:#b74f34;font:800 11px/1.2 'DM Mono',monospace;letter-spacing:.08em;text-transform:uppercase}.ds-meta{color:#57717a;font:14px/1.5 Manrope,Arial,sans-serif}" },
+    { "name": "Atlas Navigation", "kind": "nav", "refersTo": "navigation", "description": "The sticky route switcher for the evidence hub.", "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><b>UN</b>Bonded Evidence Hub</a><a class=\"ds-link ds-active\" href=\"#\">Source catalogue</a></nav>", "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 24px;background:#081a2b}.ds-brand,.ds-link{color:#fff;text-decoration:none;font:700 16px 'Libre Baskerville',Georgia,serif}.ds-brand b{display:inline-grid;place-items:center;width:38px;height:38px;margin-right:8px;border-radius:50%;background:#ffca5b;color:#081a2b;font:800 11px Arial}.ds-link{font:600 14px Manrope,Arial,sans-serif}.ds-link:hover,.ds-link:focus-visible,.ds-active{color:#ffca5b;outline:none}" }
+  ],
+  "narrative": {
+    "northStar": "The Research Atlas",
+    "overview": "The interface treats evidence as a navigable landscape: each source is a location with a visible method, geography, and limitation, not a detached citation. Deep navy gives the product its institutional backbone; warm paper, documentary photography, and lifted record surfaces make long-form research feel approachable rather than bureaucratic. The system is editorial and operational at once. Large serif headlines establish the human stakes, while compact mono labels turn filters, systems, and metadata into legible wayfinding.",
+    "keyCharacteristics": ["Documentary, source-led, and geographically aware.", "Warm archive surfaces against a deep civic-navy frame.", "Editorial hierarchy paired with compact research metadata.", "Soft, ambient elevation that separates evidence without making it feel decorative."],
+    "rules": [{ "name": "The Evidence-Signal Rule", "body": "Use the bright accents to guide attention or encode research meaning; do not turn them into generic decoration.", "section": "colors" }, { "name": "The Two-Speed Rule", "body": "Let editorial serif type carry ideas; let mono labels carry classification. Do not use mono for long-form prose.", "section": "typography" }, { "name": "The Grounded Surface Rule", "body": "A card may lift to establish a record boundary, but the page itself should remain calm and flat.", "section": "elevation" }],
+    "dos": ["Do preserve metadata beside evidence claims so sources remain interpretable at a glance.", "Do use documentary imagery behind dark, readable gradient overlays for major route entry points.", "Do reserve Signal Sun and Fieldwork Coral for meaningful emphasis, selection, or action.", "Do maintain the atlas rhythm: generous sections, focused content columns, and restrained card grids."],
+    "donts": ["Don't flatten source records into anonymous tiles or remove method/geography context for visual simplicity.", "Don't introduce neon accents, glossy gradients, or dense dashboard chrome that competes with the evidence.", "Don't use typography or color to imply certainty beyond what the record supports."]
+  }
+}

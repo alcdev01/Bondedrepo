@@ -1,6 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import CataloguePage from './pages/CataloguePage';
-import { ContactsPage, GeographyPage, HomePage, MethodologyPage, NotFoundPage, SourceDetailPage, TimelinePage } from './pages/LegacyPages';
+import HomePage from './pages/HomePage';
+import TimelinePage from './pages/TimelinePage';
+import ContactsPage from './pages/ContactsPage';
+import MethodologyPage from './pages/MethodologyPage';
+import { GeographyPage, NotFoundPage, SourceDetailPage } from './pages/LegacyPages';
 
 export default function App() {
   return <Routes>
